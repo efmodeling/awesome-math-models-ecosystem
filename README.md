@@ -21,6 +21,9 @@ This list covers key mathematical frameworks used in ecosystem modelling, includ
 - **[Permutation Entropy: A Natural Complexity Measure for Time Series](https://doi.org/10.1103/PhysRevLett.88.174102)** — Bandt C, Pompe B. *Physical Review Letters*, 88(17):174102. 2002.
   > Introduces permutation entropy (PE), a robust and computationally efficient ordinal-pattern-based measure of complexity for time series. By encoding local order relations between neighbouring values, PE captures the intrinsic irregularity of a signal without requiring assumptions about the underlying dynamics — making it especially well-suited for noisy, non-stationary ecological and environmental records.
 
+- **[Weighted-Permutation Entropy: A Complexity Measure for Time Series Incorporating Amplitude Information](https://doi.org/10.1103/PhysRevE.87.022911)** — Fadlallah B, Chen B, Keil A, Príncipe J. *Physical Review E*, 87(2):022911. 2013.
+  > Extends permutation entropy by weighting each ordinal pattern according to the variance of the corresponding sub-sequence, thus recovering amplitude information that classical PE discards. The weighted scheme yields better robustness against noise and improves detection of abrupt magnitude changes and spiky features — properties particularly valuable when analysing irregular ecological signals such as population bursts or extreme environmental events.
+
 ---
 
 ## Contributing
