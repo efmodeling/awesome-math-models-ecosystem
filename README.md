@@ -1,37 +1,41 @@
-# 📐 Awesome Math Models for Ecosystem Analysis
+# Awesome Math Models for Ecosystem Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated collection of foundational papers on mathematical models for ecosystem analysis. This repository serves as a reference hub for researchers and practitioners working at the intersection of mathematics, complexity science, and ecology.
+> A curated list of foundational papers on mathematical models for ecosystem analysis.
 
----
-
-## 📑 Papers
-
-### Complexity & Information Theory
-
-| # | Title | Authors | Journal | Year | DOI/Link |
-|---|-------|---------|---------|------|----------|
-| 1 | Permutation Entropy: A Natural Complexity Measure for Time Series | Bandt C, Pompe B | Physical Review Letters, 88(17):174102 | 2002 | [10.1103/PhysRevLett.88.174102](https://doi.org/10.1103/PhysRevLett.88.174102) |
+This list covers key mathematical frameworks used in ecosystem modelling, including complexity measures, dynamical systems, information theory, network theory, and more. Contributions are welcome!
 
 ---
 
-## 📖 Full References
+## Contents
 
-1. Bandt C, Pompe B. Permutation entropy: a natural complexity measure for time series. *Physical Review Letters*. 2002 Apr 11;88(17):174102. DOI: [10.1103/PhysRevLett.88.174102](https://doi.org/10.1103/PhysRevLett.88.174102)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! To add a paper:
-1. Fork this repository
-2. Add the paper to the appropriate category in the table
-3. Add the full reference in the **Full References** section
-4. Submit a pull request
+- [Complexity & Information Theory](#complexity--information-theory)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 📜 License
+## Complexity & Information Theory
+
+*Papers on measures of complexity, entropy, and information-theoretic tools applied to ecological time series and systems.*
+
+- **[Permutation Entropy: A Natural Complexity Measure for Time Series](https://doi.org/10.1103/PhysRevLett.88.174102)** — Bandt C, Pompe B. *Physical Review Letters*, 88(17):174102. 2002.
+  > Introduces permutation entropy (PE), a robust and computationally efficient ordinal-pattern-based measure of complexity for time series. By encoding local order relations between neighbouring values, PE captures the intrinsic irregularity of a signal without requiring assumptions about the underlying dynamics — making it especially well-suited for noisy, non-stationary ecological and environmental records.
+
+---
+
+## Contributing
+
+Contributions are very welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
+
+1. Fork this repository.
+2. Add your paper under the appropriate section, following the existing format.
+3. Include a brief annotation (1–2 sentences) explaining the paper's relevance.
+4. Submit a pull request.
+
+---
+
+## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-This list is released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+To the extent possible under law, [efmodeling](https://github.com/efmodeling) has waived all copyright and related or neighboring rights to this work.
